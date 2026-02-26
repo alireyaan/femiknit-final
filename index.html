@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Femiknit | Elegance Woven in Every Thread</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="fk-header">
+        <div class="fk-header-inner">
+          <div class="fk-brand">
+            <img
+              src="./assets/logo.png"
+              alt="Femiknit logo"
+              class="fk-logo"
+              onerror="this.style.display='none'"
+            />
+            <div class="fk-brand-text">
+              <span class="fk-brand-name">Femiknit</span>
+              <span class="fk-brand-tagline">Elegance in Every Drape</span>
+            </div>
+          </div>
+          <button class="fk-nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span>
+          </button>
+          <nav class="fk-nav" id="nav">
+            <button class="fk-nav-link is-active" data-view="home">
+              Home
+            </button>
+            <button class="fk-nav-link" data-view="styles">
+              Saree Styles
+            </button>
+            <button class="fk-nav-link" data-view="wishlist">
+              Wishlist
+            </button>
+            <button class="fk-nav-link" data-view="connect">
+              Connect
+            </button>
+          </nav>
+        </div>
+      </header>
+
+      <main class="fk-main">
+        <!-- HOME -->
+        <section class="fk-view fk-view--active" id="view-home">
+          <section class="fk-hero">
+            <div class="fk-hero-copy">
+              <p className="fk-hero-kicker">Indian Sarees · Curated</p>
+              <h1>Elegance Woven in Every Thread</h1>
+              <p class="fk-hero-subtitle">
+                Femiknit brings handcrafted Indian sarees to the modern woman —
+                timeless drapes with a whisper of contemporary luxury.
+              </p>
+              <div class="fk-hero-actions">
+                <button
+                  class="fk-btn fk-btn-primary"
+                  data-view-target="styles"
+                >
+                  Explore Saree Styles
+                </button>
+                <button
+                  class="fk-btn fk-btn-ghost"
+                  data-view-target="connect"
+                >
+                  Connect on WhatsApp
+                </button>
+              </div>
+            </div>
+            <div class="fk-hero-media">
+              <div class="fk-hero-card fk-hero-card--primary">
+                <img
+                  src="./assets/c__Users_Lenovo_AppData_Roaming_Cursor_User_workspaceStorage_b59cdcede6e6b8ceec5674861775711f_images_WhatsApp_Image_2026-02-24_at_1.13.41_AM-6ed11efa-23de-4424-9c90-3e674359fc8e.png"
+                  alt="Rich red and black saree"
+                />
+              </div>
+              <div class="fk-hero-card fk-hero-card--secondary">
+                <img
+                  src="./assets/c__Users_Lenovo_AppData_Roaming_Cursor_User_workspaceStorage_b59cdcede6e6b8ceec5674861775711f_images_WhatsApp_Image_2026-02-24_at_1.16.52_AM-211bc16c-fddf-46b0-8aa3-cfe37ad28228.png"
+                  alt="Elegant pastel saree"
+                />
+              </div>
+            </div>
+          </section>
+
+          <section class="fk-highlight-strip">
+            <div class="fk-highlight-item">
+              <span class="fk-dot"></span>
+              Handpicked artisan clusters across India
+            </div>
+            <div class="fk-highlight-item">
+              <span class="fk-dot"></span>
+              WhatsApp-assisted personal styling
+            </div>
+            <div class="fk-highlight-item">
+              <span class="fk-dot"></span>
+              Pan-India shipping
+            </div>
+          </section>
+
+          <section class="fk-preview-grid">
+            <header class="fk-section-header">
+              <h2>Signature Saree Curation</h2>
+              <p>
+                From heritage weaves to ethereal flowy silhouettes, discover
+                sarees that move with you.
+              </p>
+            </header>
+            <div class="fk-card-grid">
+              <article class="fk-card">
+                <img
+                  src="./assets/c__Users_Lenovo_AppData_Roaming_Cursor_User_workspaceStorage_b59cdcede6e6b8ceec5674861775711f_images_WhatsApp_Image_2026-02-24_at_1.14.23_AM-0e0872df-0ed6-469c-a279-8b5c38dde148.png"
+                  alt="Deep navy saree with intricate gold motifs"
+                />
+                <div class="fk-card-body">
+                  <h3>Occasion Wear</h3>
+                  <p>Rich weaves for weddings, festivities, and grand soirees.</p>
+                </div>
+              </article>
+              <article class="fk-card">
+                <img
+                  src="./assets/c__Users_Lenovo_AppData_Roaming_Cursor_User_workspaceStorage_b59cdcede6e6b8ceec5674861775711f_images_WhatsApp_Image_2026-02-24_at_1.15.50_AM-6acbfaa0-29e6-4653-8f6e-05dee3145d01.png"
+                  alt="Cream saree with bold pink florals"
+                />
+                <div class="fk-card-body">
+                  <h3>Daylight Romance</h3>
+                  <p>Soft pastels and florals that glow under the sun.</p>
+                </div>
+              </article>
+              <article class="fk-card">
+                <img
+                  src="./assets/c__Users_Lenovo_AppData_Roaming_Cursor_User_workspaceStorage_b59cdcede6e6b8ceec5674861775711f_images_WhatsApp_Image_2026-02-24_at_1.16.04_AM-cc1b54fa-72a9-436f-9ba4-874414ad2716.png"
+                  alt="Mustard yellow embroidered saree"
+                />
+                <div class="fk-card-body">
+                  <h3>Everyday Luxe</h3>
+                  <p>Easy drapes, elevated textures, and breathable elegance.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+        </section>
+
+        <!-- SAREE STYLES -->
+        <section class="fk-view" id="view-styles">
+          <header class="fk-section-header">
+            <h2>Saree Styles</h2>
+            <p>
+              Explore Femiknit’s core saree stories — each style crafted to tell
+              its own tale in threads and motifs.
+            </p>
+          </header>
+          <div class="fk-style-grid" id="styleGrid"></div>
+        </section>
+
+        <!-- WISHLIST -->
+        <section class="fk-view" id="view-wishlist">
+          <header class="fk-section-header">
+            <h2>Your Wishlist</h2>
+            <p>
+              Sarees you’ve marked to revisit — share on WhatsApp to inquire
+              about availability, pricing, and styling.
+            </p>
+          </header>
+          <div id="wishlistEmpty" class="fk-empty">
+            You haven’t saved any sarees yet. Browse styles and tap the heart to
+            build your wishlist.
+          </div>
+          <div class="fk-style-grid" id="wishlistGrid"></div>
+        </section>
+
+        <!-- CONNECT -->
+        <section class="fk-view" id="view-connect">
+          <header class="fk-section-header">
+            <h2>Connect with Femiknit</h2>
+            <p>
+              Prefer conversation over carts? Message us directly on WhatsApp
+              for curation, pricing, and shipping details.
+            </p>
+          </header>
+
+          <section class="fk-connect-layout">
+            <div class="fk-connect-card">
+              <h3>WhatsApp for Orders</h3>
+              <p class="fk-connect-copy">
+                Share screenshots or mention the saree names you love. Our team
+                will help you with close-up pictures, blouse suggestions, and
+                drape ideas tailored to your occasion.
+              </p>
+              <button class="fk-btn fk-btn-primary" id="whatsappButton">
+                Chat on WhatsApp
+              </button>
+              <p class="fk-connect-meta">
+                WhatsApp: <a href="tel:+919263515610">+91 92635 15610</a>
+              </p>
+            </div>
+
+            <div class="fk-connect-card fk-connect-details">
+              <h3>Shopping Experience</h3>
+              <ul class="fk-list">
+                <li>Curated video previews on request</li>
+                <li>Secure payment links shared via WhatsApp</li>
+                <li>Domestic shipping across India</li>
+              </ul>
+            </div>
+          </section>
+        </section>
+      </main>
+
+      <footer class="fk-footer">
+        <p>© <span id="year"></span> Femiknit. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
+

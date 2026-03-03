@@ -8,8 +8,7 @@ const stylesData = [
     approxPrice: "₹7,500 – ₹12,500",
     feel: ["Textured", "Light Winter", "Handloom"],
     bestFor: "Intimate gatherings, poojas, and cultural evenings.",
-    image:
-      "./assets/c__Users_Lenovo_AppData_Roaming_Cursor_User_workspaceStorage_b59cdcede6e6b8ceec5674861775711f_images_WhatsApp_Image_2026-02-24_at_1.14.44_AM-cccf46b8-74ce-48a9-9ab9-557e193d556a.png",
+    image: "./assets/ghicha-tassar.png",
   },
   {
     id: "khaddi-georgette",
@@ -18,8 +17,7 @@ const stylesData = [
     approxPrice: "₹9,500 – ₹18,000",
     feel: ["Fluid", "Festive", "Zari Highlights"],
     bestFor: "Sangeet nights and reception cocktails.",
-    image:
-      "./assets/c__Users_Lenovo_AppData_Roaming_Cursor_User_workspaceStorage_b59cdcede6e6b8ceec5674861775711f_images_WhatsApp_Image_2026-02-24_at_1.16.30_AM-fb4c84b2-42ed-4305-b931-389393061ace.png",
+    image: "./assets/khaddi-georgette.png",
   },
   {
     id: "kanthastitch",
@@ -28,8 +26,7 @@ const stylesData = [
     approxPrice: "₹8,000 – ₹16,000",
     feel: ["Artisanal", "All-day Comfort", "Hand Embroidery"],
     bestFor: "Day functions, art events, and heirloom gifting.",
-    image:
-      "./assets/c__Users_Lenovo_AppData_Roaming_Cursor_User_workspaceStorage_b59cdcede6e6b8ceec5674861775711f_images_WhatsApp_Image_2026-02-24_at_1.15.15_AM-7a91b7ec-e70c-48b1-b3c0-2d731673436f.png",
+    image: "./assets/kanthastitch.png",
   },
   {
     id: "chinon",
@@ -38,8 +35,7 @@ const stylesData = [
     approxPrice: "₹5,500 – ₹9,500",
     feel: ["Soft", "Travel Friendly", "Easy Drapes"],
     bestFor: "Brunches, destination weddings, and pre-wedding shoots.",
-    image:
-      "./assets/c__Users_Lenovo_AppData_Roaming_Cursor_User_workspaceStorage_b59cdcede6e6b8ceec5674861775711f_images_WhatsApp_Image_2026-02-24_at_1.15.50_AM-6acbfaa0-29e6-4653-8f6e-05dee3145d01.png",
+    image: "./assets/chinon.png",
   },
   {
     id: "hakoba",
@@ -48,8 +44,7 @@ const stylesData = [
     approxPrice: "₹4,500 – ₹8,500",
     feel: ["Breathable", "Summer Perfect", "Textured"],
     bestFor: "Daytime celebrations, mehendi, and resort wear.",
-    image:
-      "./assets/c__Users_Lenovo_AppData_Roaming_Cursor_User_workspaceStorage_b59cdcede6e6b8ceec5674861775711f_images_WhatsApp_Image_2026-02-24_at_1.16.04_AM-cc1b54fa-72a9-436f-9ba4-874414ad2716.png",
+    image: "./assets/hakoba.png",
   },
   {
     id: "dhakai-maslin",
@@ -58,8 +53,7 @@ const stylesData = [
     approxPrice: "₹6,500 – ₹13,500",
     feel: ["Sheer", "Lightweight", "Heritage"],
     bestFor: "Graceful day events and traditional gatherings.",
-    image:
-      "./assets/c__Users_Lenovo_AppData_Roaming_Cursor_User_workspaceStorage_b59cdcede6e6b8ceec5674861775711f_images_WhatsApp_Image_2026-02-24_at_1.16.04_AM-cc1b54fa-72a9-436f-9ba4-874414ad2716.png",
+    image: "./assets/dhakai-maslin.png",
   },
   {
     id: "kanni-pashmina-silk",
@@ -68,8 +62,7 @@ const stylesData = [
     approxPrice: "₹18,000 – ₹38,000",
     feel: ["Plush", "Winter Heirloom", "Statement"],
     bestFor: "Winter weddings and sit-down soirées.",
-    image:
-      "./assets/c__Users_Lenovo_AppData_Roaming_Cursor_User_workspaceStorage_b59cdcede6e6b8ceec5674861775711f_images_WhatsApp_Image_2026-02-24_at_1.16.52_AM-211bc16c-fddf-46b0-8aa3-cfe37ad28228.png",
+    image: "./assets/kanni-pashmina-silk.png",
   },
   {
     id: "kanjivaram",
@@ -78,8 +71,7 @@ const stylesData = [
     approxPrice: "₹22,000 – ₹65,000",
     feel: ["Structured", "Grand", "Bridal"],
     bestFor: "Weddings, muhurtham, and milestone celebrations.",
-    image:
-      "./assets/c__Users_Lenovo_AppData_Roaming_Cursor_User_workspaceStorage_b59cdcede6e6b8ceec5674861775711f_images_WhatsApp_Image_2026-02-24_at_1.13.41_AM-6ed11efa-23de-4424-9c90-3e674359fc8e.png",
+    image: "./assets/kanjivaram.png",
   },
 ];
 

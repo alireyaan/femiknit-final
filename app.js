@@ -235,7 +235,10 @@ function renderStylesGrid() {
 
   grid.querySelectorAll("[data-cart-style-id]").forEach((btn) => {
     const id = btn.getAttribute("data-cart-style-id");
-    btn.addEventListener("click", () => toggleCart(id));
+    btn.addEventListener("click", () => {
+      toggleCart(id);
+      switchView("cart");
+    });
   });
 
   refreshWishlistButtons();
